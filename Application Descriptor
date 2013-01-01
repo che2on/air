@@ -1,0 +1,9 @@
+Nokia-MIDlet-Splash-Screen-Image: /oo/splash.jpg
+MIDlet-1: BubblePop,icon.png,com.air.Main
+MIDlet-Jar-URL: AirBubble.jar
+MicroEdition-Configuration: CLDC-1.0
+MIDlet-Version: 1.0.0
+MIDlet-Name: BubblePop
+MIDlet-Vendor: Lexo Systems
+MicroEdition-Profile: MIDP-2.1
+MIDlet-Permissions: javax.microedition.io.Connector.http
