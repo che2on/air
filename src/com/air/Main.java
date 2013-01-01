@@ -95,7 +95,7 @@ public class Main extends MIDlet implements VservAdListener {
 		
 		
 		
-		showAlertMessage("no ad", "no ad received", AlertType.INFO);
+		
 		// TODO Auto-generated method stub
 		
 		
