@@ -49,6 +49,8 @@ public class Main extends MIDlet implements VservAdListener {
 		{
 		initialize() ;
 		tracker = Tracker.getInstance(this, ANALYTICS_ID, 0);
+		
+		// tracker 3rd parameter compulsory?
 	    tracker.addToQueue(new PageView("/NokiaS40FullTouch/Entry"));
 		tracker.flush(false);
 	    mycan = new MyCanvas(this, true);
@@ -90,6 +92,10 @@ public class Main extends MIDlet implements VservAdListener {
 
 	public void vservAdFailed(Object obj) 
 	{
+		
+		
+		
+		showAlertMessage("no ad", "no ad received", AlertType.INFO);
 		// TODO Auto-generated method stub
 		
 		
