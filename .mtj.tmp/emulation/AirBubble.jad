@@ -1,5 +1,5 @@
 MIDlet-1: BubblePop,icon.png,com.air.Main
-MIDlet-Jar-Size: 145746
+MIDlet-Jar-Size: 145807
 MIDlet-Jar-URL: AirBubble.jar
 MIDlet-Name: BubblePop
 MIDlet-Permissions: javax.microedition.io.Connector.http
